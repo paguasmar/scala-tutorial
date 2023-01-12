@@ -1,4 +1,4 @@
-object Generics {
+object Generics extends App {
   class MyList[A] {
 
   }
