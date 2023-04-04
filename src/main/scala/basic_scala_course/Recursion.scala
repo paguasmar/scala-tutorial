@@ -1,4 +1,5 @@
-import java.security.KeyStore.TrustedCertificateEntry
+package basic_scala_course
+
 import scala.annotation.tailrec
 
 object Recursion extends App{

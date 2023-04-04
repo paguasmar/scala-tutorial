@@ -1,3 +1,5 @@
+package basic_scala_course
+
 object FltaMap extends App {
 
   val list = List(1, 2, 3)

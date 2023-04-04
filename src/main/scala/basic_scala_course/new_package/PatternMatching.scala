@@ -1,4 +1,4 @@
-package new_package
+package basic_scala_course.new_package
 
 object PatternMatching extends App {
 

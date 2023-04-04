@@ -1,5 +1,7 @@
-import scala.util.Random
+package basic_scala_course
+
 import scala.collection.immutable._
+import scala.util.Random
 
 object Sequences extends App {
   // Seg
@@ -91,8 +93,6 @@ case class SocialNetwork() {
     val personNumFriendsOrdered = this.peopleNumberOfFriends().filter((pair: (String, Int)) => pair._2 == 0)
     personNumFriendsOrdered.map(_._1).length
   }
-
-  import java.util
 
   //prints BFS traversal from a given source s
   def isSocialConnected(s: String, d: String): Boolean = {

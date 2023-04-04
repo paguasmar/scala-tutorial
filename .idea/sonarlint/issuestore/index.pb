@@ -1,7 +1,7 @@
 
-Q
-!src/main/scala/CalledByName.scala,2/e/2e4564dee4abfbcb07c3d7e0328a671fd52ae3e1
-O
-src/main/scala/HOFCurries.scala,c/e/ce796461dcc338b1e17e90b1af1cbcbad320f342
-N
-src/main/scala/Recursion.scala,0/9/09264dbbc7b84eb20469f983870d3122dd12922a
+>
+.scalafmt.conf,e/1/e12d3b293d3f11101e2049f125afbdc236047a48
+d
+4.idea/modules/rock-the-jvm-scala-begginers-build.iml,4/b/4b98aad0eb04496f14d4cb43d275789e7d105cba
+=
+.bsp/sbt.json,2/d/2d1c848107550a7cf7f00ddb405f3bba740cc5b5

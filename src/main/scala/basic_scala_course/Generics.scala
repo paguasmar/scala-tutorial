@@ -1,3 +1,5 @@
+package basic_scala_course
+
 object Generics extends App {
   class MyList[A] {
 

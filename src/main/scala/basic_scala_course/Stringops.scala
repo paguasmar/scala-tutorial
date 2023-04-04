@@ -1,3 +1,5 @@
+package basic_scala_course
+
 object Stringops extends App {
   val str: String = "Hello, Iam learning Scala"
 

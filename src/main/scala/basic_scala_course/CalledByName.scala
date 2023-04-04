@@ -1,3 +1,5 @@
+package basic_scala_course
+
 object CalledByValue extends App {
   def calledByValue(t: Long): Unit = {
     println("by value:" + t)

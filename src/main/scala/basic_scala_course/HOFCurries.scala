@@ -1,3 +1,5 @@
+package basic_scala_course
+
 object HOFCurries extends App {
   val toCurry: ((Int, Int) => Int) => (Int => Int => Int) = f => (x => f(x, _))
   val fromCurry: (Int => Int => Int) => ((Int, Int) => Int) = g => g(_)(_)

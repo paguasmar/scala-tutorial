@@ -1,4 +1,4 @@
-package oop
+package basic_scala_course.new_package.oop
 
 object Exceptions extends App {
   def errorMethod: Int = throw new NullPointerException()

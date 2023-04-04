@@ -1,4 +1,6 @@
-import java.util.{Optional, Random}
+package basic_scala_course
+
+import java.util.Random
 
 object TestOption extends App {
   val config: Map[String, String] = Map(

@@ -1,3 +1,5 @@
+package basic_scala_course
+
 object WhatsAFunction extends App {
 
  val concatenate: (String, String) => String = new Function2[String,String, String] {

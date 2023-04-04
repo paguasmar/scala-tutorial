@@ -1,3 +1,5 @@
+package basic_scala_course
+
 import scala.language.postfixOps
 
 object MethodNotation extends  App {

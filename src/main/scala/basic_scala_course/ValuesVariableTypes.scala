@@ -1,3 +1,5 @@
+package basic_scala_course
+
 object ValuesVariableTypes extends App {
   //val x:Int = 42
   //println(s"Olá${x}")

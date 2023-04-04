@@ -1,4 +1,4 @@
-package oop
+package basic_scala_course.new_package.oop
 
 abstract class MyListGen[+A] {
   def head(): A

@@ -1,3 +1,5 @@
+package basic_scala_course
+
 import scala.util.{Failure, Random, Success, Try}
 
 object HandlingFailure extends App {
