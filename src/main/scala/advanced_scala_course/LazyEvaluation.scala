@@ -62,8 +62,10 @@ object LazyEvaluation extends App {
   println(numbers2)
 
   // stream head is always avaliable but the tail is lazy
-  val to100: Stream[Int] = Stream.iterate(1)(_ + 1)
-  to100.foreach(println)
+  val to100: Stream[Int] = Stream.iterate(21)(_ + 1)
+  // to100.foreach(println)
+  val lt31 = to100.filter(lessThan30)
+  print(lt31(4))
 
   val complaint_url = "https://www.bbb.org:443"
   println(complaint_url.replace("https://www.bbb.org:443","https://www.bbb.org"))
